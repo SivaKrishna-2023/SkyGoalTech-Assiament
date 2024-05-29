@@ -1,0 +1,10 @@
+.Nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;;
+}
+
+.items{
+    padding-right: 20px;
+    list-style-type: none;
+}

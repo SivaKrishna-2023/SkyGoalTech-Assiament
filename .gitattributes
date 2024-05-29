@@ -1,0 +1,16 @@
+# Set the default behavior to automatically normalize line endings.
+* text=auto
+
+# Force these text files to use LF line endings in the repository
+*.js text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Force Git to use LF line endings for all files in the 'client' directory
+client/* text eol=lf
+
+# Binary files should be treated as binary and not have line endings converted
+*.png binary
+*.jpg binary
+*.gif binary
